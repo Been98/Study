@@ -14,7 +14,7 @@ int main()
     while(1){
         if(a < 0){
             cout <<"-1";
-            return;
+            return 0;
         }
         if((num-(5*a))%3 == 0){
             b = (num-(5*a)) / 3;
